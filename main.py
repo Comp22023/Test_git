@@ -12,6 +12,7 @@ for g in spisok:
         spisok2.append(stroka)
     else:
         spisok2.append(g)
-print(spisok2)
+print(spisok2)#Этот принт выводит результат в терминале
+
 #Проверка
 #Изменение для коммита
