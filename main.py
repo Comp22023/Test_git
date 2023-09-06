@@ -14,3 +14,4 @@ for g in spisok:
         spisok2.append(g)
 print(spisok2)
 #Проверка
+#Изменение для коммита
