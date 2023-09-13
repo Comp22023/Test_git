@@ -1,3 +1,4 @@
+
 chislo = int(input('Введите натуральное число больше нуля: '))
 stroka = str(input('Введите строку: '))
 
@@ -21,3 +22,8 @@ b = 'ку'
 print(a + b)
 #Иван, свари мне кофе, СРОЧНО СРОЧНО, ЗАДАЧКА НА ПОВЫШЕНИЕ!!!!!
 # СМЕНИЛ ЯЩИК (тимлид)
+
+user_spisok = input("Введите строку на английском языке: ")
+symbol = 'abcdefghijklmnopqrstuvwxyz'
+user_spisok = sum([user_spisok.lower().count(symbol) for symbol in symbol])
+print(user_spisok)
